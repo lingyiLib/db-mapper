@@ -35,6 +35,6 @@
     },
     "extra": [],
     "scripts": {
-        "test": "co-phpunit --prepend test/bootstrap.php -c phpunit.xml --colors=always",
+        "test": "co-phpunit --prepend test/bootstrap.php -c phpunit.xml --colors=always"
     }
 }
