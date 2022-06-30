@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="" tests="5" assertions="63" errors="0" warnings="0" failures="0" skipped="0" time="2.419782">
+    <testsuite name="Tests" tests="5" assertions="63" errors="0" warnings="0" failures="0" skipped="0" time="2.419782">
+      <testsuite name="HyperfTest\Cases\DbTest" file="/home/vagrant/code/domain_driver/test/Cases/DbTest.php" tests="5" assertions="63" errors="0" warnings="0" failures="0" skipped="0" time="2.419782">
+        <testcase name="testInsert" class="HyperfTest\Cases\DbTest" classname="HyperfTest.Cases.DbTest" file="/home/vagrant/code/domain_driver/test/Cases/DbTest.php" line="20" assertions="4" time="1.709320"/>
+        <testcase name="testUpdate" class="HyperfTest\Cases\DbTest" classname="HyperfTest.Cases.DbTest" file="/home/vagrant/code/domain_driver/test/Cases/DbTest.php" line="82" assertions="1" time="0.333428"/>
+        <testcase name="testRead" class="HyperfTest\Cases\DbTest" classname="HyperfTest.Cases.DbTest" file="/home/vagrant/code/domain_driver/test/Cases/DbTest.php" line="97" assertions="53" time="0.192771"/>
+        <testcase name="testTransaction" class="HyperfTest\Cases\DbTest" classname="HyperfTest.Cases.DbTest" file="/home/vagrant/code/domain_driver/test/Cases/DbTest.php" line="179" assertions="4" time="0.157474"/>
+        <testcase name="testDelete" class="HyperfTest\Cases\DbTest" classname="HyperfTest.Cases.DbTest" file="/home/vagrant/code/domain_driver/test/Cases/DbTest.php" line="225" assertions="1" time="0.026788"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,40 @@
+{
+    "name": "lingyilib/db-mapper",
+    "description": "Simple DataMapper built on top of Doctrine DBA",
+    "keywords": ["orm", "datamapper", "dbal", "doctrine", "database", "model", "mapper", "entity"],
+    "": "",
+    "autoload": {
+        "psr-4": {
+            "lingyiLib\\DbMapper\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.2",
+        "hyperf/utils": "~2.2.8",
+        "nesbot/carbon": "^2.0",
+        "psr/container": "^1.0|^2.0",
+        "hyperf/pool": "~2.2.0",
+        "doctrine/dbal": "^3.3.0",
+        "sabre/event": "~2.0",
+    },
+    "require-dev": {
+        "hyperf/testing": "^2.2",
+    },
+    "autoload": {
+        "psr-4": {
+            "lingyiLib\\DbMapper\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "lingyiLib\\Database\\": "./test/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": [],
+    "scripts": {
+        "test": "co-phpunit --prepend test/bootstrap.php -c phpunit.xml --colors=always",
+    }
+}
